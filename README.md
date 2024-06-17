@@ -22,3 +22,13 @@ make dev
 To execute the tests, run:
 
 vendor/bin/phpunit
+
+## Application Scope
+This is a backend-only application. All endpoints are defined in controllers. The frontend, developed in React, will interact with these endpoints through the REST API.
+
+## Testing the Endpoints
+For testing the endpoints, the best way is to use Postman. Postman allows you to easily create requests to test and validate the functionality of each endpoint.
+
+## Additional Notes
+Ensure Docker is installed and running on your system to use the provided make dev command.
+The application uses a REST API for communication between the backend and frontend.
