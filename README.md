@@ -9,6 +9,7 @@ This project is a Minimum Viable Product (MVP) for an application that allows in
 - PHP 8.1
 - Composer
 - Symfony 6.4
+- Docker
 
 ## Configuration
 Before running application, ensure that you have properly configured your environment variables. Specifically, you need to set up the DATABASE_URL and MAILER_DSN.
