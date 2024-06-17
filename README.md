@@ -10,6 +10,9 @@ This project is a Minimum Viable Product (MVP) for an application that allows in
 - Composer
 - Symfony 6.4
 
+## Configuration
+Before running application, ensure that you have properly configured your environment variables. Specifically, you need to set up the DATABASE_URL and MAILER_DSN.
+
 ## Running the Application
 To start the development server, install dependencies, and execute fixtures, use the following command in the main project directory:
 
